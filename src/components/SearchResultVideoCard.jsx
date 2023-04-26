@@ -39,8 +39,8 @@ const SearchResultVideoCard = ({ video }) => {
                                 {video?.author?.title}
                                 {video?.author?.badges[0]?.type ===
                                     "VERIFIED_CHANNEL" && (
-                                    <BsFillCheckCircleFill className="text-white/[0.5] text-[12px] lg:text-[10px] xl:text-[12px] ml-1" />
-                                )}
+                                        <BsFillCheckCircleFill className="text-white/[0.5] text-[12px] lg:text-[10px] xl:text-[12px] ml-1" />
+                                    )}
                             </span>
                             <div className="flex text-sm font-semibold text-white/[0.7] truncate overflow-hidden">
                                 <span>{`${abbreviateNumber(
